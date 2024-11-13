@@ -1,43 +1,22 @@
-name: Build macOS and iOS
-
-on:
-  push:
-    branches:
-      - main
-
 jobs:
   build:
-    runs-on: macos-latest  # Usa un runner macOS
-
+    runs-on: macos-latest  # Runner macOS di GitHub Actions
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3  # Usa la versione più recente di checkout
+        uses: actions/checkout@v3
 
       - name: Set up JUCE repository
-        run: |
-          git clone --branch develop --single-branch https://github.com/juce-framework/JUCE.git  # Clona il repository JUCE
+        run: git clone --branch develop --single-branch https://github.com/juce-framework/JUCE.git
 
       - name: Set up Xcode
         run: |
-          sudo xcode-select --switch /Applications/Xcode.app  # Seleziona Xcode
-          sudo xcodebuild -license accept  # Accetta la licenza di Xcode
-
-      - name: List available schemes in the macOS project
-        run: |
-          # Elenca gli schemi nel progetto per macOS
-          xcodebuild -project ./Builds/MacOSX/HelloWorldoMulti.xcodeproj -list
-
-      - name: List available schemes in the iOS project
-        run: |
-          # Elenca gli schemi nel progetto per iOS
-          xcodebuild -project ./Builds/iOS/HelloWorldoMulti.xcodeproj -list
+          sudo xcode-select --switch /Applications/Xcode.app
+          sudo xcodebuild -license accept
 
       - name: Build for macOS
         run: |
-          # Compilazione per macOS con lo schema corretto
-          xcodebuild -project ./Builds/MacOSX/HelloWorldoMulti.xcodeproj -scheme HelloWorldoMulti -sdk macosx  # Compilazione per macOS
+          xcodebuild -project ./Builds/MacOSX/HelloWorldoMulti.xcodeproj -scheme HelloWorld -sdk macosx
 
       - name: Build for iOS
         run: |
-          # Compilazione per iOS con lo schema corretto
-          xcodebuild -project ./Builds/iOS/HelloWorldoMulti.xcodeproj -scheme HelloWorldoMulti -sdk iphoneos  # Compilazione per iOS
+          xcodebuild -project ./Builds/iOS/HelloWorldoMulti.xcodeproj -scheme HelloWorld -sdk iphoneos

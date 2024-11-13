@@ -7,11 +7,11 @@ on:
 
 jobs:
   build:
-    runs-on: macos-latest  # Usa un runner macOS
+    runs-on: macos-latest  
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3  # Usa la versione più recente di checkout
+        uses: actions/checkout@v3  
 
       - name: Set up JUCE repository
         run: |

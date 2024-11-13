@@ -7,24 +7,27 @@ on:
 
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: macos-latest  # Usa un runner macOS
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3  # Usa la versione più recente
 
-      - name: Install JUCE
-        run: brew install juce
+      - name: Checkout JUCE
+        run: |
+          git clone --branch develop --single-branch https://github.com/juce-framework/JUCE.git
+          cd JUCE
+          ./extras/Build/BuildCMake.sh  # Compilazione di JUCE
 
       - name: Set up Xcode
         run: |
-          sudo xcode-select --switch /Applications/Xcode.app
-          sudo xcodebuild -license accept
+          sudo xcode-select --switch /Applications/Xcode.app  # Seleziona Xcode
+          sudo xcodebuild -license accept  # Accetta la licenza di Xcode
 
       - name: Build for macOS
         run: |
-          xcodebuild -project $GITHUB_WORKSPACE/HelloWorldMulti/HelloWorldoMulti/HelloWorldoMulti.xcodeproj -scheme HelloWorld -sdk macosx
+          xcodebuild -project /Users/PC/Desktop/HelloWorldMulti/HelloWorldoMulti/HelloWorldoMulti.xcodeproj -scheme HelloWorld -sdk macosx  # Compilazione per macOS
 
       - name: Build for iOS
         run: |
-          xcodebuild -project $GITHUB_WORKSPACE/HelloWorldMulti/HelloWorldoMulti/HelloWorldoMulti.xcodeproj -scheme HelloWorld -sdk iphoneos
+          xcodebuild -project /Users/PC/Desktop/HelloWorldMulti/HelloWorldoMulti/HelloWorldoMulti.xcodeproj -scheme HelloWorld -sdk iphoneos  # Compilazione per iOS

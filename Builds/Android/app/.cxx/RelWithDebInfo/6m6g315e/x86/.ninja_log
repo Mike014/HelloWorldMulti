@@ -36,3 +36,6 @@
 21	60018	7532077622222040	CMakeFiles/juce_jni.dir/C_/Users/PC/Desktop/HelloWorldMulti/HelloWorldoMulti/JuceLibraryCode/include_juce_core.cpp.o	96898d5d58c9c889
 6340	89911	7532077920937906	CMakeFiles/juce_jni.dir/C_/Users/PC/Desktop/HelloWorldMulti/HelloWorldoMulti/JuceLibraryCode/include_juce_gui_basics.cpp.o	a787736a99d85c6f
 89912	90238	7532077924914622	C:/Users/PC/Desktop/HelloWorldMulti/HelloWorldoMulti/Builds/Android/app/build/intermediates/cxx/RelWithDebInfo/6m6g315e/obj/x86/libjuce_jni.so	75b1806d0c433750
+6	3406	7532136312589732	CMakeFiles/juce_jni.dir/C_/Users/PC/Desktop/HelloWorldMulti/HelloWorldoMulti/Source/Main.cpp.o	6cf993156700482e
+9	3586	7532136313128478	CMakeFiles/juce_jni.dir/C_/Users/PC/Desktop/HelloWorldMulti/HelloWorldoMulti/Source/MainComponent.cpp.o	6ac4e5493fe27551
+3603	4088	7532136318143262	C:/Users/PC/Desktop/HelloWorldMulti/HelloWorldoMulti/Builds/Android/app/build/intermediates/cxx/RelWithDebInfo/6m6g315e/obj/x86/libjuce_jni.so	75b1806d0c433750

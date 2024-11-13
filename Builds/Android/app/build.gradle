@@ -6,49 +6,63 @@ android {
     compileSdkVersion 33
     ndkVersion ndkVersionString
     namespace "com.yourcompany.helloworldomulti"
+
     externalNativeBuild {
         cmake {
             path "CMakeLists.txt"
-            version "3.22.1"
+            version "3.31.0"
         }
     }
+
     signingConfigs {
-        juceSigning {
-            storeFile     file("${System.properties['user.home']}${File.separator}.android${File.separator}debug.keystore")
-            storePassword "android"
-            keyAlias      "androiddebugkey"
-            keyPassword   "android"
-            storeType     "jks"
+        release {
+            // Percorso del keystore di rilascio
+            storeFile file("C:/Users/PC/Desktop/release.keystore") // Usa il percorso dove hai creato il keystore
+            storePassword "0329199028" // Password del keystore
+            keyAlias "mykey" // Alias della chiave
+            keyPassword "0329199028" // Password della chiave
+            storeType "PKCS12" // Tipo di keystore, usa PKCS12 per il keystore di rilascio
         }
     }
 
     defaultConfig {
         applicationId "com.yourcompany.helloworldomulti"
-        minSdkVersion    16
+        minSdkVersion 16
         targetSdkVersion 33
+        versionCode 1
+        versionName "1.0"
+
         externalNativeBuild {
             cmake {
-                arguments "-DANDROID_TOOLCHAIN=clang", "-DANDROID_PLATFORM=android-16", "-DANDROID_STL=c++_static", "-DANDROID_CPP_FEATURES=exceptions rtti", "-DANDROID_ARM_MODE=arm", "-DANDROID_ARM_NEON=TRUE", "-DCMAKE_CXX_STANDARD=17", "-DCMAKE_CXX_EXTENSIONS=OFF"
+                arguments "-DANDROID_TOOLCHAIN=clang", 
+                          "-DANDROID_PLATFORM=android-16", 
+                          "-DANDROID_STL=c++_static", 
+                          "-DANDROID_CPP_FEATURES=exceptions rtti", 
+                          "-DANDROID_ARM_MODE=arm", 
+                          "-DANDROID_ARM_NEON=TRUE", 
+                          "-DCMAKE_CXX_STANDARD=17", 
+                          "-DCMAKE_CXX_EXTENSIONS=OFF"
             }
         }
     }
 
     buildTypes {
-         debug {
-             initWith debug
-             debuggable    true
-             jniDebuggable true
-             signingConfig signingConfigs.juceSigning
-         }
-         release {
-             initWith release
-             debuggable    false
-             jniDebuggable false
-             signingConfig signingConfigs.juceSigning
-         }
+        debug {
+            debuggable true
+            jniDebuggable true
+            signingConfig signingConfigs.release // Imposta la configurazione di firma per il debug
+        }
+        release {
+            debuggable false
+            jniDebuggable false
+            signingConfig signingConfigs.release // Imposta la configurazione di firma per la release
+            minifyEnabled false // Se necessario
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
     }
 
     flavorDimensions "default"
+
     productFlavors {
         debug_ {
             ndk {
@@ -56,55 +70,41 @@ android {
             }
             externalNativeBuild {
                 cmake {
-                    cFlags    "-O0"
-                    cppFlags  "-O0"
+                    cFlags "-O0"
+                    cppFlags "-O0"
                     arguments "-DJUCE_BUILD_CONFIGURATION=DEBUG"
                 }
             }
-
             dimension "default"
         }
         release_ {
             externalNativeBuild {
                 cmake {
-                    cFlags    "-O3"
-                    cppFlags  "-O3"
+                    cFlags "-O3"
+                    cppFlags "-O3"
                     arguments "-DJUCE_BUILD_CONFIGURATION=RELEASE"
                 }
             }
-
             dimension "default"
         }
     }
 
     variantFilter { variant ->
         def names = variant.flavors*.name
-        if (names.contains ("debug_")
-              && variant.buildType.name != "debug") {
+        if (names.contains("debug_") && variant.buildType.name != "debug") {
             setIgnore(true)
         }
-        if (names.contains ("release_")
-              && variant.buildType.name != "release") {
+        if (names.contains("release_") && variant.buildType.name != "release") {
             setIgnore(true)
         }
     }
 
     sourceSets {
-        main.java.srcDirs +=
-            ["../../../../../../JUCE/modules/juce_core/native/javacore/init",
-             "../../../../../../JUCE/modules/juce_core/native/javacore/app"]
-
-        main.res.srcDirs +=
-            []
+        main.java.srcDirs += [
+            "../../../../../../JUCE/modules/juce_core/native/javacore/init",
+            "../../../../../../JUCE/modules/juce_core/native/javacore/app"
+        ]
     }
-
-    repositories {
-    }
-
-    dependencies {
-    }
-
-
-
 }
+
 

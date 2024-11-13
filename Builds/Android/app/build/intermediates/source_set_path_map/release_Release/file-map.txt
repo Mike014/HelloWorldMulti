@@ -1,0 +1,10 @@
+com.yourcompany.helloworldomulti.app-release_-0 C:\Users\PC\Desktop\HelloWorldMulti\HelloWorldoMulti\Builds\Android\app\build\generated\res\pngs\release_\release
+com.yourcompany.helloworldomulti.app-release_-1 C:\Users\PC\Desktop\HelloWorldMulti\HelloWorldoMulti\Builds\Android\app\build\generated\res\resValues\release_\release
+com.yourcompany.helloworldomulti.app-release_-2 C:\Users\PC\Desktop\HelloWorldMulti\HelloWorldoMulti\Builds\Android\app\build\generated\res\rs\release_\release
+com.yourcompany.helloworldomulti.app-mergeRelease_ReleaseResources-3 C:\Users\PC\Desktop\HelloWorldMulti\HelloWorldoMulti\Builds\Android\app\build\intermediates\incremental\release_Release\mergeRelease_ReleaseResources\merged.dir
+com.yourcompany.helloworldomulti.app-mergeRelease_ReleaseResources-4 C:\Users\PC\Desktop\HelloWorldMulti\HelloWorldoMulti\Builds\Android\app\build\intermediates\incremental\release_Release\mergeRelease_ReleaseResources\stripped.dir
+com.yourcompany.helloworldomulti.app-merged_res-5 C:\Users\PC\Desktop\HelloWorldMulti\HelloWorldoMulti\Builds\Android\app\build\intermediates\merged_res\release_Release
+com.yourcompany.helloworldomulti.app-main-6 C:\Users\PC\Desktop\HelloWorldMulti\HelloWorldoMulti\Builds\Android\app\src\main\res
+com.yourcompany.helloworldomulti.app-release-7 C:\Users\PC\Desktop\HelloWorldMulti\HelloWorldoMulti\Builds\Android\app\src\release\res
+com.yourcompany.helloworldomulti.app-release_-8 C:\Users\PC\Desktop\HelloWorldMulti\HelloWorldoMulti\Builds\Android\app\src\release_\res
+com.yourcompany.helloworldomulti.app-release_Release-9 C:\Users\PC\Desktop\HelloWorldMulti\HelloWorldoMulti\Builds\Android\app\src\release_Release\res

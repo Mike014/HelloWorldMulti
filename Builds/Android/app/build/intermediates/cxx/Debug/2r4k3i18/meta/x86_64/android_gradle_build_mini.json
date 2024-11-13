@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "C:\\Users\\PC\\Desktop\\HelloWorldMulti\\HelloWorldoMulti\\Builds\\Android\\app\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\PC\\AppData\\Local\\Android\\Sdk\\cmake\\3.31.0\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\PC\\Desktop\\HelloWorldMulti\\HelloWorldoMulti\\Builds\\Android\\app\\.cxx\\Debug\\2r4k3i18\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\PC\\AppData\\Local\\Android\\Sdk\\cmake\\3.31.0\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\PC\\Desktop\\HelloWorldMulti\\HelloWorldoMulti\\Builds\\Android\\app\\.cxx\\Debug\\2r4k3i18\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "juce_jni::@6890427a1f51a3e7e1df": {
+      "artifactName": "juce_jni",
+      "abi": "x86_64",
+      "output": "C:\\Users\\PC\\Desktop\\HelloWorldMulti\\HelloWorldoMulti\\Builds\\Android\\app\\build\\intermediates\\cxx\\Debug\\2r4k3i18\\obj\\x86_64\\libjuce_jni.so",
+      "runtimeFiles": [
+        "C:\\Users\\PC\\AppData\\Local\\Android\\Sdk\\ndk\\25.2.9519653\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\21\\liblog.so",
+        "C:\\Users\\PC\\AppData\\Local\\Android\\Sdk\\ndk\\25.2.9519653\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\21\\libandroid.so",
+        "C:\\Users\\PC\\AppData\\Local\\Android\\Sdk\\ndk\\25.2.9519653\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\21\\libGLESv2.so",
+        "C:\\Users\\PC\\AppData\\Local\\Android\\Sdk\\ndk\\25.2.9519653\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\21\\libEGL.so"
+      ]
+    },
+    "cpufeatures::@6890427a1f51a3e7e1df": {
+      "artifactName": "cpufeatures",
+      "abi": "x86_64",
+      "output": "C:\\Users\\PC\\Desktop\\HelloWorldMulti\\HelloWorldoMulti\\Builds\\Android\\app\\.cxx\\Debug\\2r4k3i18\\x86_64\\libcpufeatures.a",
+      "runtimeFiles": []
+    }
+  }
+}

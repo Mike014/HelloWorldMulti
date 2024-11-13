@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "C:\\Users\\PC\\Desktop\\HelloWorldMulti\\HelloWorldoMulti\\Builds\\Android\\app\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\PC\\AppData\\Local\\Android\\Sdk\\cmake\\3.31.0\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\PC\\Desktop\\HelloWorldMulti\\HelloWorldoMulti\\Builds\\Android\\app\\.cxx\\Debug\\2r4k3i18\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\PC\\AppData\\Local\\Android\\Sdk\\cmake\\3.31.0\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\PC\\Desktop\\HelloWorldMulti\\HelloWorldoMulti\\Builds\\Android\\app\\.cxx\\Debug\\2r4k3i18\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "juce_jni::@6890427a1f51a3e7e1df": {
+      "artifactName": "juce_jni",
+      "abi": "x86",
+      "output": "C:\\Users\\PC\\Desktop\\HelloWorldMulti\\HelloWorldoMulti\\Builds\\Android\\app\\build\\intermediates\\cxx\\Debug\\2r4k3i18\\obj\\x86\\libjuce_jni.so",
+      "runtimeFiles": [
+        "C:\\Users\\PC\\AppData\\Local\\Android\\Sdk\\ndk\\25.2.9519653\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\19\\liblog.so",
+        "C:\\Users\\PC\\AppData\\Local\\Android\\Sdk\\ndk\\25.2.9519653\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\19\\libandroid.so",
+        "C:\\Users\\PC\\AppData\\Local\\Android\\Sdk\\ndk\\25.2.9519653\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\19\\libGLESv2.so",
+        "C:\\Users\\PC\\AppData\\Local\\Android\\Sdk\\ndk\\25.2.9519653\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\19\\libEGL.so"
+      ]
+    },
+    "cpufeatures::@6890427a1f51a3e7e1df": {
+      "artifactName": "cpufeatures",
+      "abi": "x86",
+      "output": "C:\\Users\\PC\\Desktop\\HelloWorldMulti\\HelloWorldoMulti\\Builds\\Android\\app\\.cxx\\Debug\\2r4k3i18\\x86\\libcpufeatures.a",
+      "runtimeFiles": []
+    }
+  }
+}

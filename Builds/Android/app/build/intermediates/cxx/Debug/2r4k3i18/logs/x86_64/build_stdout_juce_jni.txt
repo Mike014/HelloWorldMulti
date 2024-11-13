@@ -1,0 +1,4 @@
+ninja: Entering directory `C:\Users\PC\Desktop\HelloWorldMulti\HelloWorldoMulti\Builds\Android\app\.cxx\Debug\2r4k3i18\x86_64'
+[1/3] Building CXX object CMakeFiles/juce_jni.dir/C_/Users/PC/Desktop/HelloWorldMulti/HelloWorldoMulti/Source/MainComponent.cpp.o
+[2/3] Building CXX object CMakeFiles/juce_jni.dir/C_/Users/PC/Desktop/HelloWorldMulti/HelloWorldoMulti/Source/Main.cpp.o
+[3/3] Linking CXX shared library C:\Users\PC\Desktop\HelloWorldMulti\HelloWorldoMulti\Builds\Android\app\build\intermediates\cxx\Debug\2r4k3i18\obj\x86_64\libjuce_jni.so

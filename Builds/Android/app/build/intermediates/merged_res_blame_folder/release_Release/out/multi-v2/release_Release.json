@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.yourcompany.helloworldomulti.app-merged_res-5:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\PC\\Desktop\\HelloWorldMulti\\HelloWorldoMulti\\Builds\\Android\\app\\src\\release\\res\\values\\string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "2",
+                        "startOffsets": "54",
+                        "endColumns": "51",
+                        "endOffsets": "103"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "53",
+                        "endOffsets": "104"
+                    }
+                }
+            ]
+        }
+    ]
+}

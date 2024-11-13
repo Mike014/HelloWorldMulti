@@ -1,5 +1,4 @@
 # Ignora cartelle di build temporanee
-build/
 juce_modules/
 
 # Ignora file di Xcode

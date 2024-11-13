@@ -34,10 +34,10 @@ jobs:
 
       - name: Build for macOS
         run: |
-          # Compilazione per macOS con il percorso corretto
-          xcodebuild -project ./Builds/MacOSX/HelloWorldoMulti.xcodeproj -scheme HelloWorld -sdk macosx  # Compilazione per macOS
+          # Compilazione per macOS con lo schema corretto
+          xcodebuild -project ./Builds/MacOSX/HelloWorldoMulti.xcodeproj -scheme HelloWorldoMulti -sdk macosx  # Compilazione per macOS
 
       - name: Build for iOS
         run: |
-          # Compilazione per iOS con il percorso corretto
-          xcodebuild -project ./Builds/iOS/HelloWorldoMulti.xcodeproj -scheme HelloWorld -sdk iphoneos  # Compilazione per iOS
+          # Compilazione per iOS con lo schema corretto
+          xcodebuild -project ./Builds/iOS/HelloWorldoMulti.xcodeproj -scheme HelloWorldoMulti -sdk iphoneos  # Compilazione per iOS

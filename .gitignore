@@ -3,7 +3,7 @@ build/
 Builds/
 juce_modules/
 
-# Ignora file di Xcode
+# Ignora file di Xcode, ma conserva i file .xcodeproj
 *.xcodeproj/project.xcworkspace/
 *.xcuserstate
 *.pbxuser
@@ -25,3 +25,4 @@ juce_modules/
 
 # Ignora file generati dal sistema
 Thumbs.db
+

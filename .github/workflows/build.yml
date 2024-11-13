@@ -22,6 +22,16 @@ jobs:
           sudo xcode-select --switch /Applications/Xcode.app  # Seleziona Xcode
           sudo xcodebuild -license accept  # Accetta la licenza di Xcode
 
+      - name: List available schemes in the macOS project
+        run: |
+          # Elenca gli schemi nel progetto per macOS
+          xcodebuild -project ./Builds/MacOSX/HelloWorldoMulti.xcodeproj -list
+
+      - name: List available schemes in the iOS project
+        run: |
+          # Elenca gli schemi nel progetto per iOS
+          xcodebuild -project ./Builds/iOS/HelloWorldoMulti.xcodeproj -list
+
       - name: Build for macOS
         run: |
           # Compilazione per macOS con il percorso corretto

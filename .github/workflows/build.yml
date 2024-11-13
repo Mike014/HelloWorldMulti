@@ -11,13 +11,11 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3  # Usa la versione più recente
+        uses: actions/checkout@v3  # Usa la versione più recente di checkout
 
-      - name: Checkout JUCE
+      - name: Set up JUCE repository
         run: |
-          git clone --branch develop --single-branch https://github.com/juce-framework/JUCE.git
-          cd JUCE
-          ./extras/Build/BuildCMake.sh  # Compilazione di JUCE
+          git clone --branch develop --single-branch https://github.com/juce-framework/JUCE.git  # Clona il repository JUCE
 
       - name: Set up Xcode
         run: |
@@ -26,8 +24,8 @@ jobs:
 
       - name: Build for macOS
         run: |
-          xcodebuild -project /Users/PC/Desktop/HelloWorldMulti/HelloWorldoMulti/HelloWorldoMulti.xcodeproj -scheme HelloWorld -sdk macosx  # Compilazione per macOS
+          xcodebuild -project /Users/runner/work/HelloWorldMulti/HelloWorldoMulti/HelloWorldoMulti.xcodeproj -scheme HelloWorld -sdk macosx  # Compilazione per macOS
 
       - name: Build for iOS
         run: |
-          xcodebuild -project /Users/PC/Desktop/HelloWorldMulti/HelloWorldoMulti/HelloWorldoMulti.xcodeproj -scheme HelloWorld -sdk iphoneos  # Compilazione per iOS
+          xcodebuild -project /Users/runner/work/HelloWorldMulti/HelloWorldoMulti/HelloWorldoMulti.xcodeproj -scheme HelloWorld -sdk iphoneos  # Compilazione per iOS

@@ -1,0 +1,4 @@
+C:/Users/PC/Desktop/HelloWorldMulti/HelloWorldoMulti/Builds/Android/app/.cxx/Debug/2r4k3i18/x86/CMakeFiles/cpufeatures.dir
+C:/Users/PC/Desktop/HelloWorldMulti/HelloWorldoMulti/Builds/Android/app/.cxx/Debug/2r4k3i18/x86/CMakeFiles/juce_jni.dir
+C:/Users/PC/Desktop/HelloWorldMulti/HelloWorldoMulti/Builds/Android/app/.cxx/Debug/2r4k3i18/x86/CMakeFiles/edit_cache.dir
+C:/Users/PC/Desktop/HelloWorldMulti/HelloWorldoMulti/Builds/Android/app/.cxx/Debug/2r4k3i18/x86/CMakeFiles/rebuild_cache.dir

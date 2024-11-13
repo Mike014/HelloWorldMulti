@@ -1,0 +1,5772 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "C:/Users/PC/Desktop/HelloWorldMulti/HelloWorldoMulti/Builds/Android/app/build/intermediates/cxx/RelWithDebInfo/6m6g315e/obj/arm64-v8a/libjuce_jni.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_compile_options",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1874,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1866,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -O3 -O2 -g -DNDEBUG -std=c++17 -fPIC"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fsigned-char"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "JUCER_ANDROIDSTUDIO_7F0E4A25=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "JUCE_ANDROID=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "JUCE_ANDROID_API_VERSION=16"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "JUCE_APP_VERSION=1.0.0"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "JUCE_APP_VERSION_HEX=0x10000"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_DISPLAY_SPLASH_SCREEN=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_core=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_data_structures=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_events=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_graphics=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_MODULE_AVAILABLE_juce_gui_basics=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_PROJUCER_VERSION=0x7000a"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_STANDALONE_APPLICATION=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_STRICT_REFCOUNTEDPOINTER=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "JUCE_USE_DARK_SPLASH_SCREEN=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "NDEBUG=1"
+				},
+				{
+					"define" : "juce_jni_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/PC/Desktop/HelloWorldMulti/HelloWorldoMulti/Builds/Android/app/../../../JuceLibraryCode"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/PC/JUCE/modules"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/PC/AppData/Local/Android/Sdk/ndk/25.2.9519653/sources/android/cpufeatures"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				908,
+				909,
+				910,
+				911,
+				912
+			],
+			"sysroot" : 
+			{
+				"path" : "C:/Users/PC/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "cpufeatures::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "juce_jni::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  -Wl,--gc-sections",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Xlinker --dependency-file -Xlinker CMakeFiles\\juce_jni.dir\\link.d",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\Users\\PC\\AppData\\Local\\Android\\Sdk\\ndk\\25.2.9519653\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\21\\liblog.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\Users\\PC\\AppData\\Local\\Android\\Sdk\\ndk\\25.2.9519653\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\21\\libandroid.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\Users\\PC\\AppData\\Local\\Android\\Sdk\\ndk\\25.2.9519653\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\21\\libGLESv2.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\Users\\PC\\AppData\\Local\\Android\\Sdk\\ndk\\25.2.9519653\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\21\\libEGL.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "libcpufeatures.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "C:/Users/PC/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+		}
+	},
+	"name" : "juce_jni",
+	"nameOnDisk" : "libjuce_jni.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				7,
+				9,
+				13,
+				15,
+				17,
+				19,
+				21,
+				24,
+				25,
+				27,
+				29,
+				35,
+				37,
+				41,
+				43,
+				45,
+				47,
+				49,
+				51,
+				53,
+				56,
+				58,
+				60,
+				62,
+				64,
+				67,
+				68,
+				70,
+				72,
+				74,
+				76,
+				79,
+				81,
+				85,
+				94,
+				101,
+				104,
+				107,
+				109,
+				111,
+				113,
+				115,
+				119,
+				122,
+				124,
+				125,
+				126,
+				127,
+				129,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				139,
+				140,
+				141,
+				143,
+				144,
+				145,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				155,
+				156,
+				157,
+				158,
+				159,
+				161,
+				163,
+				165,
+				167,
+				169,
+				173,
+				175,
+				178,
+				180,
+				182,
+				184,
+				186,
+				188,
+				194,
+				197,
+				199,
+				205,
+				207,
+				210,
+				212,
+				214,
+				216,
+				219,
+				221,
+				225,
+				229,
+				235,
+				238,
+				240,
+				242,
+				244,
+				246,
+				248,
+				250,
+				253,
+				255,
+				257,
+				258,
+				259,
+				261,
+				263,
+				264,
+				267,
+				269,
+				271,
+				273,
+				277,
+				279,
+				281,
+				283,
+				285,
+				286,
+				288,
+				290,
+				292,
+				294,
+				296,
+				298,
+				300,
+				303,
+				304,
+				306,
+				307,
+				309,
+				312,
+				314,
+				317,
+				319,
+				321,
+				323,
+				325,
+				327,
+				329,
+				332,
+				336,
+				338,
+				345,
+				346,
+				348,
+				349,
+				350,
+				352,
+				354,
+				356,
+				359,
+				361,
+				362,
+				364,
+				366,
+				368,
+				370,
+				373,
+				376,
+				378,
+				380,
+				382,
+				385,
+				387,
+				389,
+				391,
+				393,
+				395,
+				397,
+				400,
+				404,
+				406,
+				408,
+				412,
+				416,
+				417,
+				418,
+				419,
+				420,
+				421,
+				423,
+				424,
+				425,
+				426,
+				427,
+				429,
+				430,
+				431,
+				432,
+				433,
+				434,
+				435,
+				436,
+				437,
+				438,
+				440,
+				441,
+				443,
+				444,
+				445,
+				446,
+				447,
+				448,
+				449,
+				450,
+				451,
+				452,
+				454,
+				455,
+				456,
+				457,
+				458,
+				459,
+				460,
+				462,
+				463,
+				468,
+				469,
+				470,
+				472,
+				475,
+				479,
+				480,
+				482,
+				483,
+				485,
+				486,
+				487,
+				488,
+				489,
+				491,
+				492,
+				493,
+				494,
+				495,
+				496,
+				497,
+				498,
+				499,
+				501,
+				503,
+				505,
+				509,
+				511,
+				513,
+				514,
+				515,
+				516,
+				517,
+				518,
+				519,
+				520,
+				521,
+				522,
+				523,
+				524,
+				527,
+				529,
+				530,
+				539,
+				542,
+				544,
+				546,
+				548,
+				550,
+				552,
+				554,
+				556,
+				558,
+				560,
+				563,
+				565,
+				567,
+				569,
+				572,
+				574,
+				577,
+				579,
+				581,
+				583,
+				585,
+				606,
+				608,
+				610,
+				612,
+				614,
+				616,
+				618,
+				620,
+				621,
+				623,
+				625,
+				627,
+				630,
+				632,
+				634,
+				636,
+				639,
+				641,
+				643,
+				645,
+				647,
+				649,
+				651,
+				653,
+				660,
+				662,
+				664,
+				666,
+				668,
+				670,
+				672,
+				675,
+				677,
+				679,
+				681,
+				683,
+				685,
+				687,
+				689,
+				691,
+				693,
+				695,
+				697,
+				699,
+				701,
+				703,
+				705,
+				707,
+				709,
+				711,
+				713,
+				715,
+				717,
+				719,
+				721,
+				723,
+				725,
+				727,
+				729,
+				731,
+				733,
+				738,
+				740,
+				742,
+				744,
+				746,
+				751,
+				752,
+				753,
+				754,
+				755,
+				756,
+				758,
+				760,
+				778,
+				779,
+				780,
+				781,
+				782,
+				783,
+				784,
+				785,
+				786,
+				787,
+				788,
+				790,
+				791,
+				792,
+				793,
+				794,
+				796,
+				798,
+				802,
+				803,
+				804,
+				805,
+				806,
+				807,
+				808,
+				810,
+				811,
+				812,
+				813,
+				814,
+				815,
+				817,
+				819,
+				821,
+				823,
+				825,
+				827,
+				829,
+				831,
+				833,
+				835,
+				837,
+				839,
+				841,
+				843,
+				845,
+				847,
+				849,
+				851,
+				853,
+				855,
+				857,
+				859,
+				861,
+				863,
+				865,
+				867,
+				869,
+				872,
+				874,
+				876,
+				878,
+				880,
+				882,
+				884,
+				886,
+				888,
+				890,
+				892,
+				894,
+				896,
+				898,
+				900,
+				902,
+				905,
+				906,
+				908,
+				909,
+				910,
+				911,
+				912
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				4,
+				5,
+				6,
+				8,
+				10,
+				11,
+				12,
+				14,
+				16,
+				18,
+				20,
+				22,
+				23,
+				26,
+				28,
+				30,
+				31,
+				32,
+				33,
+				34,
+				36,
+				38,
+				39,
+				40,
+				42,
+				44,
+				46,
+				48,
+				50,
+				52,
+				54,
+				55,
+				57,
+				59,
+				61,
+				63,
+				65,
+				66,
+				69,
+				71,
+				73,
+				75,
+				77,
+				78,
+				80,
+				82,
+				83,
+				84,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				102,
+				103,
+				105,
+				106,
+				108,
+				110,
+				112,
+				114,
+				116,
+				117,
+				120,
+				121,
+				123,
+				128,
+				130,
+				138,
+				142,
+				146,
+				147,
+				154,
+				160,
+				162,
+				164,
+				166,
+				168,
+				170,
+				171,
+				172,
+				174,
+				176,
+				177,
+				179,
+				181,
+				183,
+				185,
+				187,
+				189,
+				190,
+				191,
+				192,
+				193,
+				195,
+				196,
+				198,
+				200,
+				201,
+				202,
+				203,
+				204,
+				206,
+				208,
+				209,
+				211,
+				213,
+				215,
+				217,
+				218,
+				220,
+				222,
+				223,
+				224,
+				226,
+				227,
+				228,
+				230,
+				231,
+				232,
+				233,
+				234,
+				236,
+				237,
+				239,
+				241,
+				243,
+				245,
+				247,
+				249,
+				251,
+				252,
+				254,
+				256,
+				260,
+				262,
+				265,
+				266,
+				268,
+				270,
+				272,
+				274,
+				275,
+				276,
+				278,
+				280,
+				282,
+				284,
+				287,
+				289,
+				291,
+				293,
+				295,
+				297,
+				299,
+				301,
+				302,
+				305,
+				308,
+				310,
+				311,
+				313,
+				315,
+				316,
+				318,
+				320,
+				322,
+				324,
+				326,
+				328,
+				330,
+				331,
+				333,
+				334,
+				335,
+				337,
+				339,
+				340,
+				341,
+				342,
+				343,
+				344,
+				347,
+				351,
+				353,
+				355,
+				357,
+				358,
+				360,
+				363,
+				365,
+				367,
+				369,
+				371,
+				372,
+				374,
+				375,
+				377,
+				379,
+				381,
+				383,
+				384,
+				386,
+				388,
+				390,
+				392,
+				394,
+				396,
+				398,
+				399,
+				401,
+				402,
+				403,
+				405,
+				407,
+				409,
+				410,
+				411,
+				413,
+				414,
+				422,
+				428,
+				439,
+				442,
+				453,
+				461,
+				464,
+				465,
+				466,
+				467,
+				471,
+				473,
+				476,
+				477,
+				478,
+				481,
+				484,
+				490,
+				500,
+				502,
+				504,
+				506,
+				507,
+				508,
+				510,
+				512,
+				525,
+				526,
+				528,
+				531,
+				532,
+				533,
+				534,
+				535,
+				536,
+				537,
+				538,
+				540,
+				541,
+				543,
+				545,
+				547,
+				549,
+				551,
+				553,
+				555,
+				557,
+				559,
+				561,
+				562,
+				564,
+				566,
+				568,
+				570,
+				571,
+				573,
+				575,
+				576,
+				578,
+				580,
+				582,
+				584,
+				586,
+				587,
+				588,
+				589,
+				590,
+				591,
+				592,
+				593,
+				594,
+				595,
+				596,
+				597,
+				598,
+				599,
+				600,
+				601,
+				602,
+				603,
+				604,
+				605,
+				607,
+				609,
+				611,
+				613,
+				615,
+				617,
+				619,
+				622,
+				624,
+				626,
+				628,
+				629,
+				631,
+				633,
+				635,
+				637,
+				638,
+				640,
+				642,
+				644,
+				646,
+				648,
+				650,
+				652,
+				654,
+				655,
+				656,
+				657,
+				658,
+				659,
+				661,
+				663,
+				665,
+				667,
+				669,
+				671,
+				673,
+				674,
+				676,
+				678,
+				680,
+				682,
+				684,
+				686,
+				688,
+				690,
+				692,
+				694,
+				696,
+				698,
+				700,
+				702,
+				704,
+				706,
+				708,
+				710,
+				712,
+				714,
+				716,
+				718,
+				720,
+				722,
+				724,
+				726,
+				728,
+				730,
+				732,
+				734,
+				735,
+				736,
+				737,
+				739,
+				741,
+				743,
+				745,
+				747,
+				748,
+				749,
+				750,
+				757,
+				759,
+				761,
+				762,
+				763,
+				764,
+				765,
+				766,
+				767,
+				768,
+				769,
+				770,
+				771,
+				772,
+				773,
+				774,
+				775,
+				776,
+				777,
+				789,
+				795,
+				797,
+				799,
+				800,
+				801,
+				809,
+				816,
+				818,
+				820,
+				822,
+				824,
+				826,
+				828,
+				830,
+				832,
+				834,
+				836,
+				838,
+				840,
+				842,
+				844,
+				846,
+				848,
+				850,
+				852,
+				854,
+				856,
+				858,
+				860,
+				862,
+				864,
+				866,
+				868,
+				870,
+				871,
+				873,
+				875,
+				877,
+				879,
+				881,
+				883,
+				885,
+				887,
+				889,
+				891,
+				893,
+				895,
+				897,
+				899,
+				901,
+				903,
+				904,
+				907,
+				913
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				118,
+				415,
+				474
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/PC/Desktop/HelloWorldMulti/HelloWorldoMulti/Source/Main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/Desktop/HelloWorldMulti/HelloWorldoMulti/Source/MainComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/PC/Desktop/HelloWorldMulti/HelloWorldoMulti/Source/MainComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_AbstractFifo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_AbstractFifo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_Array.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_ArrayAllocationBase.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_ArrayBase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_ArrayBase.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_DynamicObject.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_DynamicObject.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_ElementComparator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_Enumerate.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_Enumerate_test.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_FixedSizeFunction.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_FixedSizeFunction_test.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_HashMap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_HashMap_test.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_LinkedListPointer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_ListenerList.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_ListenerList.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_NamedValueSet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_NamedValueSet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_Optional.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_Optional_test.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_OwnedArray.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_OwnedArray.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_PropertySet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_PropertySet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_ReferenceCountedArray.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_ReferenceCountedArray.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_ScopedValueSetter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_SingleThreadedAbstractFifo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_SortedSet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_Span.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_SparseSet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_SparseSet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_Variant.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/containers/juce_Variant.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/detail/juce_CallbackListenerList.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/files/juce_AndroidDocument.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/files/juce_common_MimeTypes.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/files/juce_common_MimeTypes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/files/juce_DirectoryIterator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/files/juce_DirectoryIterator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/files/juce_File.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/files/juce_File.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/files/juce_FileFilter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/files/juce_FileFilter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/files/juce_FileInputStream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/files/juce_FileInputStream.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/files/juce_FileOutputStream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/files/juce_FileOutputStream.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/files/juce_FileSearchPath.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/files/juce_FileSearchPath.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/files/juce_MemoryMappedFile.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/files/juce_RangedDirectoryIterator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/files/juce_RangedDirectoryIterator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/files/juce_TemporaryFile.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/files/juce_TemporaryFile.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/files/juce_WildcardFileFilter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/files/juce_WildcardFileFilter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/javascript/juce_Javascript.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/javascript/juce_Javascript.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/javascript/juce_JSON.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/javascript/juce_JSON.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/javascript/juce_JSONSerialisation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/javascript/juce_JSONSerialisation_test.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/javascript/juce_JSONUtils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/javascript/juce_JSONUtils.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/logging/juce_FileLogger.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/logging/juce_FileLogger.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/logging/juce_Logger.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/logging/juce_Logger.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/maths/juce_BigInteger.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/maths/juce_BigInteger.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/maths/juce_Expression.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/maths/juce_Expression.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/maths/juce_MathsFunctions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/maths/juce_MathsFunctions_test.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/maths/juce_NormalisableRange.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/maths/juce_Random.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/maths/juce_Random.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/maths/juce_Range.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/maths/juce_StatisticsAccumulator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/memory/juce_AllocationHooks.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/memory/juce_AllocationHooks.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/memory/juce_Atomic.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/memory/juce_ByteOrder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/memory/juce_ContainerDeletePolicy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/memory/juce_HeapBlock.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/memory/juce_HeavyweightLeakedObjectDetector.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/memory/juce_LeakedObjectDetector.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/memory/juce_Memory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/memory/juce_MemoryBlock.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/memory/juce_MemoryBlock.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/memory/juce_OptionalScopedPointer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/memory/juce_ReferenceCountedObject.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/memory/juce_Reservoir.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/memory/juce_ScopedPointer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/memory/juce_SharedResourcePointer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/memory/juce_SharedResourcePointer_test.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/memory/juce_Singleton.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/memory/juce_WeakReference.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/misc/juce_ConsoleApplication.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/misc/juce_ConsoleApplication.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/misc/juce_EnumHelpers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/misc/juce_EnumHelpers_test.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/misc/juce_Functional.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/misc/juce_Result.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/misc/juce_Result.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/misc/juce_RuntimePermissions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/misc/juce_RuntimePermissions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/misc/juce_ScopeGuard.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/misc/juce_ScopeGuard.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/misc/juce_Uuid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/misc/juce_Uuid.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/misc/juce_WindowsRegistry.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/java/README.txt",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_AndroidDocument_android.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_BasicNativeHeaders.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_CFHelpers_mac.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_CommonFile_linux.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_ComSmartPtr_windows.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_Files_android.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_Files_linux.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_Files_mac.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_Files_windows.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_IPAddress_posix.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_JNIHelpers_android.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_JNIHelpers_android.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_Misc_android.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_NamedPipe_posix.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_Network_android.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_Network_curl.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_Network_linux.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_Network_mac.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_Network_windows.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_ObjCHelpers_mac.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_ObjCHelpers_mac_test.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_PlatformTimer_generic.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_PlatformTimer_windows.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_PlatformTimerListener.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_Process_mac.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_Registry_windows.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_RuntimePermissions_android.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_SharedCode_intel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_SharedCode_posix.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_Strings_mac.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_SystemStats_android.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_SystemStats_linux.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_SystemStats_mac.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_SystemStats_wasm.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_SystemStats_windows.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_ThreadPriorities_native.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_Threads_android.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_Threads_linux.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_Threads_mac.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/native/juce_Threads_windows.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/network/juce_IPAddress.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/network/juce_IPAddress.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/network/juce_MACAddress.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/network/juce_MACAddress.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/network/juce_NamedPipe.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/network/juce_NamedPipe.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/network/juce_Socket.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/network/juce_Socket.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/network/juce_URL.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/network/juce_URL.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/network/juce_WebInputStream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/network/juce_WebInputStream.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/serialisation/juce_Serialisation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/streams/juce_AndroidDocumentInputSource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/streams/juce_BufferedInputStream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/streams/juce_BufferedInputStream.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/streams/juce_FileInputSource.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/streams/juce_FileInputSource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/streams/juce_InputSource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/streams/juce_InputStream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/streams/juce_InputStream.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/streams/juce_MemoryInputStream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/streams/juce_MemoryInputStream.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/streams/juce_MemoryOutputStream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/streams/juce_MemoryOutputStream.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/streams/juce_OutputStream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/streams/juce_OutputStream.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/streams/juce_SubregionStream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/streams/juce_SubregionStream.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/streams/juce_URLInputSource.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/streams/juce_URLInputSource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/system/juce_CompilerSupport.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/system/juce_CompilerWarnings.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/system/juce_PlatformDefs.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/system/juce_StandardHeader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/system/juce_SystemStats.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/system/juce_SystemStats.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/system/juce_TargetPlatform.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/text/juce_Base64.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/text/juce_Base64.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/text/juce_CharacterFunctions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/text/juce_CharacterFunctions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/text/juce_CharPointer_ASCII.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/text/juce_CharPointer_UTF8.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/text/juce_CharPointer_UTF16.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/text/juce_CharPointer_UTF32.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/text/juce_Identifier.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/text/juce_Identifier.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/text/juce_LocalisedStrings.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/text/juce_LocalisedStrings.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/text/juce_NewLine.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/text/juce_String.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/text/juce_String.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/text/juce_StringArray.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/text/juce_StringArray.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/text/juce_StringPairArray.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/text/juce_StringPairArray.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/text/juce_StringPool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/text/juce_StringPool.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/text/juce_StringRef.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/text/juce_TextDiff.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/text/juce_TextDiff.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/threads/juce_ChildProcess.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/threads/juce_ChildProcess.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/threads/juce_CriticalSection.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/threads/juce_DynamicLibrary.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/threads/juce_HighResolutionTimer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/threads/juce_HighResolutionTimer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/threads/juce_InterProcessLock.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/threads/juce_Process.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/threads/juce_ReadWriteLock.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/threads/juce_ReadWriteLock.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/threads/juce_ScopedLock.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/threads/juce_ScopedReadLock.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/threads/juce_ScopedWriteLock.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/threads/juce_SpinLock.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/threads/juce_Thread.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/threads/juce_Thread.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/threads/juce_ThreadLocalValue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/threads/juce_ThreadPool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/threads/juce_ThreadPool.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/threads/juce_TimeSliceThread.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/threads/juce_TimeSliceThread.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/threads/juce_WaitableEvent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/threads/juce_WaitableEvent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/time/juce_PerformanceCounter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/time/juce_PerformanceCounter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/time/juce_RelativeTime.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/time/juce_RelativeTime.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/time/juce_Time.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/time/juce_Time.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/unit_tests/juce_UnitTest.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/unit_tests/juce_UnitTest.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/unit_tests/juce_UnitTestCategories.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/xml/juce_XmlDocument.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/xml/juce_XmlDocument.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/xml/juce_XmlElement.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/xml/juce_XmlElement.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/zlib/adler32.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/zlib/compress.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/zlib/crc32.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/zlib/crc32.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/zlib/deflate.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/zlib/deflate.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/zlib/infback.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/zlib/inffast.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/zlib/inffast.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/zlib/inffixed.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/zlib/inflate.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/zlib/inflate.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/zlib/inftrees.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/zlib/inftrees.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/zlib/trees.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/zlib/trees.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/zlib/uncompr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/zlib/zconf.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/zlib/zconf.in.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/zlib/zlib.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/zlib/zutil.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/zlib/zutil.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/juce_GZIPCompressorOutputStream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/juce_GZIPCompressorOutputStream.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/juce_GZIPDecompressorInputStream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/juce_GZIPDecompressorInputStream.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/juce_ZipFile.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/zip/juce_ZipFile.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/juce_core.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/juce_core.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_core/juce_core.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_data_structures/app_properties/juce_ApplicationProperties.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_data_structures/app_properties/juce_ApplicationProperties.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_data_structures/app_properties/juce_PropertiesFile.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_data_structures/app_properties/juce_PropertiesFile.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_data_structures/undomanager/juce_UndoableAction.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_data_structures/undomanager/juce_UndoableAction.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_data_structures/undomanager/juce_UndoManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_data_structures/undomanager/juce_UndoManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_data_structures/values/juce_CachedValue.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_data_structures/values/juce_CachedValue.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_data_structures/values/juce_Value.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_data_structures/values/juce_Value.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_data_structures/values/juce_ValueTree.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_data_structures/values/juce_ValueTree.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_data_structures/values/juce_ValueTreePropertyWithDefault.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_data_structures/values/juce_ValueTreePropertyWithDefault_test.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_data_structures/values/juce_ValueTreeSynchroniser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_data_structures/values/juce_ValueTreeSynchroniser.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_data_structures/juce_data_structures.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_data_structures/juce_data_structures.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_data_structures/juce_data_structures.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/broadcasters/juce_ActionBroadcaster.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/broadcasters/juce_ActionBroadcaster.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/broadcasters/juce_ActionListener.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/broadcasters/juce_AsyncUpdater.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/broadcasters/juce_AsyncUpdater.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/broadcasters/juce_ChangeBroadcaster.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/broadcasters/juce_ChangeBroadcaster.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/broadcasters/juce_ChangeListener.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/broadcasters/juce_LockingAsyncUpdater.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/broadcasters/juce_LockingAsyncUpdater.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/interprocess/juce_ChildProcessManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/interprocess/juce_ChildProcessManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/interprocess/juce_ConnectedChildProcess.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/interprocess/juce_ConnectedChildProcess.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/interprocess/juce_InterprocessConnection.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/interprocess/juce_InterprocessConnection.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/interprocess/juce_InterprocessConnectionServer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/interprocess/juce_InterprocessConnectionServer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/interprocess/juce_NetworkServiceDiscovery.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/interprocess/juce_NetworkServiceDiscovery.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/messages/juce_ApplicationBase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/messages/juce_ApplicationBase.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/messages/juce_CallbackMessage.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/messages/juce_DeletedAtShutdown.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/messages/juce_DeletedAtShutdown.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/messages/juce_Initialisation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/messages/juce_Message.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/messages/juce_MessageListener.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/messages/juce_MessageListener.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/messages/juce_MessageManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/messages/juce_MessageManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/messages/juce_MountedVolumeListChangeDetector.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/messages/juce_NotificationType.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/native/juce_EventLoop_linux.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/native/juce_EventLoopInternal_linux.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/native/juce_HiddenMessageWindow_windows.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/native/juce_MessageManager_ios.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/native/juce_MessageManager_mac.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/native/juce_MessageQueue_mac.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/native/juce_Messaging_android.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/native/juce_Messaging_linux.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/native/juce_Messaging_windows.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/native/juce_RunningInUnity.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/native/juce_ScopedLowPowerModeDisabler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/native/juce_ScopedLowPowerModeDisabler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/native/juce_WinRTWrapper_windows.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/native/juce_WinRTWrapper_windows.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/timers/juce_MultiTimer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/timers/juce_MultiTimer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/timers/juce_TimedCallback.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/timers/juce_Timer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/timers/juce_Timer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/juce_events.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/juce_events.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_events/juce_events.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/colour/juce_Colour.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/colour/juce_Colour.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/colour/juce_ColourGradient.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/colour/juce_ColourGradient.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/colour/juce_Colours.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/colour/juce_Colours.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/colour/juce_FillType.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/colour/juce_FillType.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/colour/juce_PixelFormats.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/contexts/juce_GraphicsContext.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/contexts/juce_GraphicsContext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/contexts/juce_LowLevelGraphicsContext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/contexts/juce_LowLevelGraphicsPostScriptRenderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/contexts/juce_LowLevelGraphicsPostScriptRenderer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/contexts/juce_LowLevelGraphicsSoftwareRenderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/contexts/juce_LowLevelGraphicsSoftwareRenderer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/effects/juce_DropShadowEffect.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/effects/juce_DropShadowEffect.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/effects/juce_GlowEffect.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/effects/juce_GlowEffect.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/effects/juce_ImageEffectFilter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/fonts/juce_AttributedString.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/fonts/juce_AttributedString.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/fonts/juce_CustomTypeface.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/fonts/juce_CustomTypeface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/fonts/juce_Font.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/fonts/juce_Font.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/fonts/juce_GlyphArrangement.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/fonts/juce_GlyphArrangement.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/fonts/juce_TextLayout.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/fonts/juce_TextLayout.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/fonts/juce_Typeface.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/fonts/juce_Typeface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/geometry/juce_AffineTransform.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/geometry/juce_AffineTransform.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/geometry/juce_BorderSize.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/geometry/juce_EdgeTable.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/geometry/juce_EdgeTable.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/geometry/juce_Line.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/geometry/juce_Parallelogram.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/geometry/juce_Path.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/geometry/juce_Path.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/geometry/juce_PathIterator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/geometry/juce_PathIterator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/geometry/juce_PathStrokeType.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/geometry/juce_PathStrokeType.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/geometry/juce_Point.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/geometry/juce_Rectangle.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/geometry/juce_Rectangle_test.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/geometry/juce_RectangleList.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/cderror.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/changes to libjpeg for JUCE.txt",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jcapimin.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jcapistd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jccoefct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jccolor.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jcdctmgr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jchuff.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jchuff.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jcinit.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jcmainct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jcmarker.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jcmaster.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jcomapi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jconfig.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jcparam.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jcphuff.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jcprepct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jcsample.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jctrans.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jdapimin.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jdapistd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jdatasrc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jdcoefct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jdcolor.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jdct.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jddctmgr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jdhuff.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jdhuff.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jdinput.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jdmainct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jdmarker.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jdmaster.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jdmerge.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jdphuff.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jdpostct.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jdsample.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jdtrans.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jerror.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jerror.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jfdctflt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jfdctfst.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jfdctint.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jidctflt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jidctfst.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jidctint.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jidctred.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jinclude.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jmemmgr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jmemnobs.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jmemsys.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jmorecfg.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jpegint.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jpeglib.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jquant1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jquant2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jutils.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/jversion.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/transupp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/jpglib/transupp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/pnglib/libpng_readme.txt",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/pnglib/png.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/pnglib/png.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/pnglib/pngconf.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/pnglib/pngdebug.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/pnglib/pngerror.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/pnglib/pngget.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/pnglib/pnginfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/pnglib/pngmem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/pnglib/pngpread.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/pnglib/pngpriv.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/pnglib/pngread.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/pnglib/pngrio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/pnglib/pngrtran.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/pnglib/pngrutil.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/pnglib/pngset.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/pnglib/pngstruct.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/pnglib/pngtrans.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/pnglib/pngwio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/pnglib/pngwrite.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/pnglib/pngwtran.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/pnglib/pngwutil.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/juce_GIFLoader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/juce_JPEGLoader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/image_formats/juce_PNGLoader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/images/juce_Image.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/images/juce_Image.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/images/juce_ImageCache.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/images/juce_ImageCache.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/images/juce_ImageConvolutionKernel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/images/juce_ImageConvolutionKernel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/images/juce_ImageFileFormat.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/images/juce_ImageFileFormat.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/images/juce_ScaledImage.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/native/juce_CoreGraphicsContext_mac.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/native/juce_CoreGraphicsContext_mac.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/native/juce_CoreGraphicsHelpers_mac.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/native/juce_Direct2DGraphicsContext_windows.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/native/juce_Direct2DGraphicsContext_windows.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/native/juce_DirectWriteTypeface_windows.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/native/juce_DirectWriteTypeLayout_windows.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/native/juce_Fonts_android.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/native/juce_Fonts_freetype.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/native/juce_Fonts_linux.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/native/juce_Fonts_mac.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/native/juce_Fonts_windows.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/native/juce_GraphicsContext_android.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/native/juce_IconHelpers_android.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/native/juce_IconHelpers_linux.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/native/juce_IconHelpers_mac.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/native/juce_IconHelpers_windows.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/native/juce_RenderingHelpers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/placement/juce_Justification.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/placement/juce_RectanglePlacement.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/placement/juce_RectanglePlacement.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/juce_graphics.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/juce_graphics.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_graphics/juce_graphics.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/accessibility/enums/juce_AccessibilityActions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/accessibility/enums/juce_AccessibilityEvent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/accessibility/enums/juce_AccessibilityRole.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/accessibility/interfaces/juce_AccessibilityCellInterface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/accessibility/interfaces/juce_AccessibilityTableInterface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/accessibility/interfaces/juce_AccessibilityTextInterface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/accessibility/interfaces/juce_AccessibilityValueInterface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/accessibility/juce_AccessibilityHandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/accessibility/juce_AccessibilityHandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/accessibility/juce_AccessibilityState.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/application/juce_Application.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/application/juce_Application.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/buttons/juce_ArrowButton.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/buttons/juce_ArrowButton.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/buttons/juce_Button.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/buttons/juce_Button.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/buttons/juce_DrawableButton.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/buttons/juce_DrawableButton.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/buttons/juce_HyperlinkButton.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/buttons/juce_HyperlinkButton.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/buttons/juce_ImageButton.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/buttons/juce_ImageButton.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/buttons/juce_ShapeButton.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/buttons/juce_ShapeButton.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/buttons/juce_TextButton.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/buttons/juce_TextButton.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/buttons/juce_ToggleButton.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/buttons/juce_ToggleButton.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/buttons/juce_ToolbarButton.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/buttons/juce_ToolbarButton.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandID.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandInfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandInfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandTarget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandTarget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/commands/juce_KeyPressMappingSet.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/commands/juce_KeyPressMappingSet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/components/juce_CachedComponentImage.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/components/juce_Component.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/components/juce_Component.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/components/juce_ComponentListener.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/components/juce_ComponentListener.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/components/juce_ComponentTraverser.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/components/juce_FocusTraverser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/components/juce_FocusTraverser.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/components/juce_ModalComponentManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/components/juce_ModalComponentManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/desktop/juce_Desktop.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/desktop/juce_Desktop.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/desktop/juce_Displays.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/desktop/juce_Displays.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/detail/juce_AccessibilityHelpers.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/detail/juce_AccessibilityHelpers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/detail/juce_AlertWindowHelpers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/detail/juce_ButtonAccessibilityHandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/detail/juce_ComponentHelpers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/detail/juce_CustomMouseCursorInfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/detail/juce_FocusHelpers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/detail/juce_FocusRestorer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/detail/juce_LookAndFeelHelpers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/detail/juce_MouseInputSourceImpl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/detail/juce_MouseInputSourceList.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/detail/juce_PointerState.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/detail/juce_ScalingHelpers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/detail/juce_ScopedContentSharerImpl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/detail/juce_ScopedContentSharerInterface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/detail/juce_ScopedMessageBoxImpl.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/detail/juce_ScopedMessageBoxInterface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/detail/juce_ToolbarItemDragAndDropOverlayComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/detail/juce_TopLevelWindowManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/detail/juce_ViewportHelpers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/detail/juce_WindowingHelpers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/drawables/juce_Drawable.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/drawables/juce_Drawable.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/drawables/juce_DrawableComposite.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/drawables/juce_DrawableComposite.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/drawables/juce_DrawableImage.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/drawables/juce_DrawableImage.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/drawables/juce_DrawablePath.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/drawables/juce_DrawablePath.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/drawables/juce_DrawableRectangle.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/drawables/juce_DrawableRectangle.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/drawables/juce_DrawableShape.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/drawables/juce_DrawableShape.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/drawables/juce_DrawableText.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/drawables/juce_DrawableText.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/drawables/juce_SVGParser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/filebrowser/juce_ContentSharer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/filebrowser/juce_ContentSharer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/filebrowser/juce_DirectoryContentsDisplayComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/filebrowser/juce_DirectoryContentsDisplayComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/filebrowser/juce_DirectoryContentsList.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/filebrowser/juce_DirectoryContentsList.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/filebrowser/juce_FileBrowserComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/filebrowser/juce_FileBrowserComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/filebrowser/juce_FileBrowserListener.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/filebrowser/juce_FileChooser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/filebrowser/juce_FileChooser.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/filebrowser/juce_FileChooserDialogBox.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/filebrowser/juce_FileChooserDialogBox.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/filebrowser/juce_FileListComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/filebrowser/juce_FileListComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/filebrowser/juce_FilenameComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/filebrowser/juce_FilenameComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/filebrowser/juce_FilePreviewComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/filebrowser/juce_FileSearchPathListComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/filebrowser/juce_FileSearchPathListComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/filebrowser/juce_FileTreeComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/filebrowser/juce_FileTreeComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/filebrowser/juce_ImagePreviewComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/filebrowser/juce_ImagePreviewComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/keyboard/juce_CaretComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/keyboard/juce_CaretComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/keyboard/juce_KeyboardFocusTraverser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/keyboard/juce_KeyboardFocusTraverser.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/keyboard/juce_KeyListener.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/keyboard/juce_KeyListener.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/keyboard/juce_KeyPress.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/keyboard/juce_KeyPress.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/keyboard/juce_ModifierKeys.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/keyboard/juce_ModifierKeys.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/keyboard/juce_SystemClipboard.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/keyboard/juce_TextEditorKeyMapper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/keyboard/juce_TextInputTarget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_AnimatedPosition.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_AnimatedPositionBehaviours.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_BorderedComponentBoundsConstrainer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_BorderedComponentBoundsConstrainer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_ComponentAnimator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_ComponentAnimator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_ComponentBoundsConstrainer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_ComponentBoundsConstrainer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_ComponentBuilder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_ComponentBuilder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_ComponentMovementWatcher.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_ComponentMovementWatcher.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_ConcertinaPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_ConcertinaPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_FlexBox.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_FlexBox.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_FlexItem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_Grid.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_Grid.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_GridItem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_GridItem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_GroupComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_GroupComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_MultiDocumentPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_MultiDocumentPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_ResizableBorderComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_ResizableBorderComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_ResizableCornerComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_ResizableCornerComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_ResizableEdgeComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_ResizableEdgeComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_ScrollBar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_ScrollBar.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_SidePanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_SidePanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_StretchableLayoutManager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_StretchableLayoutManager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_StretchableLayoutResizerBar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_StretchableLayoutResizerBar.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_StretchableObjectResizer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_StretchableObjectResizer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_TabbedButtonBar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_TabbedButtonBar.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_TabbedComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_TabbedComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_Viewport.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/layout/juce_Viewport.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V1.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V3.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V3.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V4.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V4.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/menus/juce_BurgerMenuComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/menus/juce_BurgerMenuComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/menus/juce_MenuBarComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/menus/juce_MenuBarComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/menus/juce_MenuBarModel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/menus/juce_MenuBarModel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/menus/juce_PopupMenu.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/menus/juce_PopupMenu.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/misc/juce_BubbleComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/misc/juce_BubbleComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/misc/juce_DropShadower.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/misc/juce_DropShadower.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/misc/juce_FocusOutline.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/misc/juce_FocusOutline.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/misc/juce_JUCESplashScreen.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/misc/juce_JUCESplashScreen.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/mouse/juce_ComponentDragger.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/mouse/juce_ComponentDragger.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/mouse/juce_DragAndDropContainer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/mouse/juce_DragAndDropContainer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/mouse/juce_DragAndDropTarget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/mouse/juce_FileDragAndDropTarget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/mouse/juce_LassoComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/mouse/juce_MouseCursor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/mouse/juce_MouseCursor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/mouse/juce_MouseEvent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/mouse/juce_MouseEvent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/mouse/juce_MouseInactivityDetector.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/mouse/juce_MouseInactivityDetector.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/mouse/juce_MouseInputSource.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/mouse/juce_MouseInputSource.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/mouse/juce_MouseListener.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/mouse/juce_MouseListener.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/mouse/juce_SelectedItemSet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/mouse/juce_TextDragAndDropTarget.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/mouse/juce_TooltipClient.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/accessibility/juce_Accessibility.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/accessibility/juce_Accessibility_android.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/accessibility/juce_Accessibility_ios.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/accessibility/juce_Accessibility_mac.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/accessibility/juce_Accessibility_windows.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/accessibility/juce_AccessibilityElement_windows.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/accessibility/juce_AccessibilityElement_windows.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/accessibility/juce_AccessibilitySharedCode_mac.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/accessibility/juce_AccessibilityTextHelpers.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/accessibility/juce_AccessibilityTextHelpers_test.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/accessibility/juce_ComInterfaces_windows.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/accessibility/juce_UIAExpandCollapseProvider_windows.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/accessibility/juce_UIAGridItemProvider_windows.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/accessibility/juce_UIAGridProvider_windows.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/accessibility/juce_UIAHelpers_windows.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/accessibility/juce_UIAInvokeProvider_windows.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/accessibility/juce_UIAProviderBase_windows.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/accessibility/juce_UIAProviders_windows.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/accessibility/juce_UIARangeValueProvider_windows.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/accessibility/juce_UIASelectionProvider_windows.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/accessibility/juce_UIATextProvider_windows.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/accessibility/juce_UIAToggleProvider_windows.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/accessibility/juce_UIATransformProvider_windows.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/accessibility/juce_UIAValueProvider_windows.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/accessibility/juce_UIAWindowProvider_windows.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/accessibility/juce_WindowsUIAWrapper_windows.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_CGMetalLayerRenderer_mac.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_ContentSharer_android.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_ContentSharer_ios.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_DragAndDrop_linux.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_DragAndDrop_windows.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_FileChooser_android.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_FileChooser_ios.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_FileChooser_linux.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_FileChooser_mac.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_FileChooser_windows.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_MainMenu_mac.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_MouseCursor_mac.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_MultiTouchMapper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_NativeMessageBox_android.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_NativeMessageBox_ios.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_NativeMessageBox_linux.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_NativeMessageBox_mac.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_NativeMessageBox_windows.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_NativeModalWrapperComponent_ios.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_NSViewComponentPeer_mac.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_PerScreenDisplayLinks_mac.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_ScopedDPIAwarenessDisabler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_ScopedDPIAwarenessDisabler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_ScopedThreadDPIAwarenessSetter_windows.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_ScopedWindowAssociation_linux.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_UIViewComponentPeer_ios.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_Windowing_android.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_Windowing_ios.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_Windowing_linux.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_Windowing_mac.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_Windowing_windows.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_WindowsHooks_windows.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_WindowsHooks_windows.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_WindowUtils_android.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_WindowUtils_ios.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_WindowUtils_linux.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_WindowUtils_mac.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_WindowUtils_windows.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_XSymbols_linux.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_XSymbols_linux.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_XWindowSystem_linux.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/native/juce_XWindowSystem_linux.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/positioning/juce_MarkerList.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/positioning/juce_MarkerList.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/positioning/juce_RelativeCoordinate.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/positioning/juce_RelativeCoordinate.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/positioning/juce_RelativeCoordinatePositioner.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/positioning/juce_RelativeCoordinatePositioner.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/positioning/juce_RelativeParallelogram.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/positioning/juce_RelativeParallelogram.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/positioning/juce_RelativePoint.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/positioning/juce_RelativePoint.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/positioning/juce_RelativePointPath.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/positioning/juce_RelativePointPath.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/positioning/juce_RelativeRectangle.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/positioning/juce_RelativeRectangle.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/properties/juce_BooleanPropertyComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/properties/juce_BooleanPropertyComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/properties/juce_ButtonPropertyComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/properties/juce_ButtonPropertyComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/properties/juce_ChoicePropertyComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/properties/juce_ChoicePropertyComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/properties/juce_MultiChoicePropertyComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/properties/juce_MultiChoicePropertyComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/properties/juce_PropertyComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/properties/juce_PropertyComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/properties/juce_PropertyPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/properties/juce_PropertyPanel.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/properties/juce_SliderPropertyComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/properties/juce_SliderPropertyComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/properties/juce_TextPropertyComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/properties/juce_TextPropertyComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/widgets/juce_ComboBox.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/widgets/juce_ComboBox.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/widgets/juce_ImageComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/widgets/juce_ImageComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/widgets/juce_Label.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/widgets/juce_Label.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/widgets/juce_ListBox.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/widgets/juce_ListBox.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/widgets/juce_ProgressBar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/widgets/juce_ProgressBar.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/widgets/juce_Slider.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/widgets/juce_Slider.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/widgets/juce_TableHeaderComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/widgets/juce_TableHeaderComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/widgets/juce_TableListBox.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/widgets/juce_TableListBox.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/widgets/juce_TextEditor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/widgets/juce_TextEditor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/widgets/juce_Toolbar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/widgets/juce_Toolbar.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/widgets/juce_ToolbarItemComponent.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/widgets/juce_ToolbarItemComponent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/widgets/juce_ToolbarItemFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/widgets/juce_ToolbarItemPalette.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/widgets/juce_ToolbarItemPalette.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/widgets/juce_TreeView.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/widgets/juce_TreeView.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_AlertWindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_AlertWindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_CallOutBox.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_CallOutBox.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_ComponentPeer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_ComponentPeer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_DialogWindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_DialogWindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_DocumentWindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_DocumentWindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_MessageBoxOptions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_MessageBoxOptions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_NativeMessageBox.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_NativeMessageBox.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_NativeScaleFactorNotifier.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_NativeScaleFactorNotifier.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_ResizableWindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_ResizableWindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_ScopedMessageBox.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_ScopedMessageBox.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_ThreadWithProgressWindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_ThreadWithProgressWindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_TooltipWindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_TooltipWindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_TopLevelWindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_TopLevelWindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_VBlankAttachment.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_VBlankAttachment.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/windows/juce_WindowUtils.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/juce_gui_basics.mm",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/JUCE/modules/juce_gui_basics/juce_gui_basics.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/PC/Desktop/HelloWorldMulti/HelloWorldoMulti/JuceLibraryCode/include_juce_core.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/PC/Desktop/HelloWorldMulti/HelloWorldoMulti/JuceLibraryCode/include_juce_data_structures.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/PC/Desktop/HelloWorldMulti/HelloWorldoMulti/JuceLibraryCode/include_juce_events.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/PC/Desktop/HelloWorldMulti/HelloWorldoMulti/JuceLibraryCode/include_juce_graphics.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "C:/Users/PC/Desktop/HelloWorldMulti/HelloWorldoMulti/JuceLibraryCode/include_juce_gui_basics.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "C:/Users/PC/Desktop/HelloWorldMulti/HelloWorldoMulti/JuceLibraryCode/JuceHeader.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

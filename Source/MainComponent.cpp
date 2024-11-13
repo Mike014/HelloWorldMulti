@@ -31,13 +31,11 @@ void MainComponent::resized()
 {
     auto area = getLocalBounds();
     
-    // Layout specifico per macOS
     #if JUCE_MAC
-        label.setBounds(area.reduced(20));  // Imposta il layout per macOS
+        label.setBounds(area.reduced(20)); 
     #endif
 
-    // Layout specifico per iOS
     #if JUCE_IOS
-        label.setBounds(area.reduced(10));  // Imposta il layout per iOS
+        label.setBounds(area.reduced(10));  
     #endif
 }

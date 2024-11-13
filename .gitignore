@@ -1,0 +1,27 @@
+# Ignora cartelle di build temporanee
+build/
+Builds/
+juce_modules/
+
+# Ignora file di Xcode
+*.xcodeproj/project.xcworkspace/
+*.xcuserstate
+*.pbxuser
+.DS_Store
+
+# Ignora file di Visual Studio
+.vs/
+.vscode/
+*.vcxproj.user
+*.vcxproj.filters
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignora file di Android Studio
+*.iml
+.idea/
+
+# Ignora file generati dal sistema
+Thumbs.db

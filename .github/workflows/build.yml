@@ -1,0 +1,30 @@
+name: Build macOS and iOS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install JUCE
+        run: brew install juce
+
+      - name: Set up Xcode
+        run: |
+          sudo xcode-select --switch /Applications/Xcode.app
+          sudo xcodebuild -license accept
+
+      - name: Build for macOS
+        run: |
+          xcodebuild -project $GITHUB_WORKSPACE/HelloWorldMulti/HelloWorldoMulti/HelloWorldoMulti.xcodeproj -scheme HelloWorld -sdk macosx
+
+      - name: Build for iOS
+        run: |
+          xcodebuild -project $GITHUB_WORKSPACE/HelloWorldMulti/HelloWorldoMulti/HelloWorldoMulti.xcodeproj -scheme HelloWorld -sdk iphoneos
